@@ -11,7 +11,7 @@
 - リーダー
 qwertyuiop
 - 作業者1
-
+hypnen-cmd
 - 作業者2
 
 - 作業者3
