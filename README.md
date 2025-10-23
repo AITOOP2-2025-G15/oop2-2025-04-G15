@@ -5,6 +5,7 @@
 - mlx_whisper
 - pydub
 - numpy
+- ffmpeg
 ## 実行手順
 
 ## 作成者情報
