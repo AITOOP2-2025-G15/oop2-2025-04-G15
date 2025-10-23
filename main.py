@@ -9,6 +9,6 @@ if __name__ == '__main__':
     print(filename)
     
     #transcribed_textは、文字起こしされた文字用の変数
-    transcribed_text = transcribe_audio()
+    transcribed_text = transcribe_audio(filename)
 
     save_transcript(transcribed_text)
