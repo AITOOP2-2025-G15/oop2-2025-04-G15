@@ -5,6 +5,7 @@
 - mlx_whisper
 - pydub
 - numpy
+- ffmpeg
 ## 実行手順
 
 ## 作成者情報
@@ -17,3 +18,12 @@ hypnen-cmd
 - 作業者3
 kouro0328
 ## 関数の仕様
+### record.py
+- recording()
+10秒間音声を録音した後、生成されたファイルのパスを返す。
+戻り値(str):生成されたファイルのパス名
+### transcript.py
+- transcribe_audio()
+指定された音声ファイルを文字起こしし、テキストを返す。
+戻り値(str):文字起こしされたテキスト
+
