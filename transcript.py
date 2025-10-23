@@ -2,7 +2,7 @@
 import mlx_whisper
 import os
 
-def transcribe_audio(file_path: str, model_size: str):
+def transcribe_audio(file_path: str):
     """
     指定された音声ファイルを文字起こしし、結果をファイルに保存する。
     """
