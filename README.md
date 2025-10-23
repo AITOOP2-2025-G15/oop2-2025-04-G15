@@ -18,11 +18,13 @@ hypnen-cmd
 - 作業者3
 kouro0328
 ## 関数の仕様
-### record.py
+### record.py<br>
 - recording()
 10秒間音声を録音した後、生成されたファイルのパスを返す。
 戻り値(str):生成されたファイルのパス名
-### transcript.py
+### transcript.py<br>
 - transcribe_audio()
 指定された音声ファイルを文字起こしし、テキストを返す。
 戻り値(str):文字起こしされたテキスト
+### write.py<br>
+-
