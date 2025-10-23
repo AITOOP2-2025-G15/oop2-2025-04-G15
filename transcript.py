@@ -56,14 +56,7 @@ def transcribe_audio(file_path: str, model_size: str):
         
         transcribed_text = result["text"]
         
-        # --- 5. 結果をファイルに保存 ---
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(transcribed_text)
-            
-        end_time = time.time()
-        print("\n--- 処理完了 ---")
-        print(f"処理時間: {end_time - start_time:.2f} 秒")
-        print(f"結果を {output_path} に保存しました。")
+        return transcribed_text
         
         # # コンソールにも結果を一部表示（長い場合は省略）
         # print("\n--- 文字起こし結果 (冒頭100文字) ---")
